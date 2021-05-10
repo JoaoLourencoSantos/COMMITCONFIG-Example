@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/config-conventional": "^12.1.1",
     "husky": "^6.0.0"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^12.1.1"
   }
 }
