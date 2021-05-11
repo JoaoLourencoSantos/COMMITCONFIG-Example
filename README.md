@@ -44,3 +44,12 @@ footer? - optional
 * revert
 * style
 * test
+
+
+# Commitzen
+
+## Install
+
+* yarn add commitizen -D
+
+* yarn commitizen init cz-conventional-changelog --yarn --dev --exact
