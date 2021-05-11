@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz",
-    "dev": "nodemon --watch 'src/' --exec 'ts-node src/server.ts' -e ts"
+    "dev": "nodemon src/server.ts",
+    "debug": "nodemon --inspect src/server.ts"
   },
   "author": "",
   "license": "ISC",
